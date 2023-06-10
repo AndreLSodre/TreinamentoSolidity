@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
-// 0xE99d95b55AEc29c054A724F47dAC914fA9927Fed
+// 0x5a1f1a2991472716E3019Fb3D225170328222C66
 
 contract ContratoAluguel {
 
@@ -29,10 +29,8 @@ contract ContratoAluguel {
     }
 
     function reajustarParcelas(uint256  mes) public returns (bool) {
-        for (uint256 i; i < valorAluguel.length; i ++) {
-            if (i>mes) {
-                addToParcelaArray(mes);
-            }
+        for (mes; mes < valorAluguel.length; mes ++) {
+            addToParcelaArray(mes);
         }
         return true;
 
