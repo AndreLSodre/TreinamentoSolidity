@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
+// 0xE99d95b55AEc29c054A724F47dAC914fA9927Fed
+
 contract ContratoAluguel {
 
     string public locator;
