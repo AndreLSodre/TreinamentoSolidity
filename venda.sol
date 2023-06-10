@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.20;
 
+// 0xE837B31e1D0E3DBaC150D2D5DA9DB22c3B7ca361
+
 contract Venda {
 
     string public nomeVendedor;
