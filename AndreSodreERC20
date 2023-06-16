@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity 0.8.20;
-
+// 0x488665aE6d0Add6320668ECd9E475013901F049d
 contract AndreSodreERC20 {
     /*//////////////////////////////////////////////////////////////
                                  EVENTS
