@@ -44,14 +44,12 @@ contract AndreSodreERC20 {
                                CONSTRUCTOR
     //////////////////////////////////////////////////////////////*/
 
-    constructor(
-        string memory _name,
-        string memory _symbol,
-        uint8 _decimals
-    ) {
-        name = _name;
-        symbol = _symbol;
-        decimals = _decimals;
+    constructor( ) {
+        name = "AndreSCoion";
+        symbol = "ANDS";
+        decimals = 5;
+
+        mint(msg.sender, 200000000);
 
         INITIAL_CHAIN_ID = block.chainid;
         INITIAL_DOMAIN_SEPARATOR = computeDomainSeparator();
